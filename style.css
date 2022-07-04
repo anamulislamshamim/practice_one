@@ -4,26 +4,30 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    color: rgb(90, 90, 90);
 }
 .div_width{
     width:50%;
 }
 .div_width img{
     width:100%;
+    height: 550px;
 }
 .div_width h1{
     font-size:2em;
     font-weight: 700;
-    padding-top:100px;
+    padding-top:40px;
+    font-size: 2.5em;
+    margin-bottom: 0;
 }
 .div_width h1 span{
     color:orange;
 }
 .section_properties{
-    padding:100px;
+    padding:80px;
     display:flex;
 }
-#order_button{
+.button{
     color:white;
     background-image: linear-gradient(to right, orange, tomato);
     padding: 1em 2em;
@@ -31,7 +35,24 @@ body{
     border-radius: 30px;
 }
 #imagine{
-    margin: 60px 0px;
+    margin-top:20px;
     color: rgb(177, 179, 179);
     font-weight: 500;
+    margin-bottom: 40px;
+}
+.girl_img{
+    padding-top: 80px;
+    padding-left: 150px;
+}
+.girl_img p{
+    margin: 30px 0px;
+}
+.girl_img p{
+    margin-bottom:80px;
+}
+.about_me{
+    height: 469px;
+    background-image: url(shapes/7.png);
+    background-repeat: none;
+    background-size: cover;
 }
