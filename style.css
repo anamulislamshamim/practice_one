@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.div_width{
+    width:50%;
+}
+.div_width img{
+    width:100%;
+}
+.div_width h1{
+    font-size:2em;
+    font-weight: 700;
+    padding-top:100px;
+}
+.div_width h1 span{
+    color:orange;
+}
+.section_properties{
+    padding:100px;
+    display:flex;
+}
+#order_button{
+    color:white;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 1em 2em;
+    text-decoration:none;
+    border-radius: 30px;
+}
+#imagine{
+    margin: 60px 0px;
+    color: rgb(177, 179, 179);
+    font-weight: 500;
+}
